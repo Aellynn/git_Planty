@@ -1,0 +1,53 @@
+.flavor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ 
+ 
+ 
+ .txt-header{
+    font-weight: 400px;
+ }
+ 
+ .txt-header:hover{
+    font-weight: 700px;
+ }
+ 
+ .btn-header{
+    color: white;
+    background-color: #DC9F96;
+  }
+ 
+  .btn-header:hover{
+    color: red;
+  }
+ 
+  .text-logo{
+    font-size: 24px;
+    color: #3B8E46;
+    background-color: #ECE2DA;
+   
+ }
+ 
+ .hero-container{
+    background-color: #ECE2DA;
+    border-bottom-left-radius: 5%;
+ }
+ 
+ .hero-logo{
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ 
+ .hero-leaf-left{
+    position: relative;
+    top: 0px;
+ }
+ 
+ @media(max-width:1440px){
+ .hero-leaf{
+    display: none;
+ }
+ }

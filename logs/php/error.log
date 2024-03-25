@@ -9,3 +9,24 @@
 [18-Mar-2024 15:02:29 UTC] PHP Parse error:  Unterminated comment starting line 2 in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child\header.php on line 2
 [18-Mar-2024 15:02:30 UTC] PHP Parse error:  Unterminated comment starting line 2 in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child\header.php on line 2
 [18-Mar-2024 15:08:00 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Mar-2024 10:32:59 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "enqueue_parent_styles" not found or invalid function name in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#3 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#7 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(16): wp_head()
+#8 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Wize\\L...')
+#9 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#10 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#11 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#13 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#14 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Wize\\L...')
+#15 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Wize\\L...')
+#16 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\index.php(17): require('C:\\Users\\Wize\\L...')
+#17 {main}
+  thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 324

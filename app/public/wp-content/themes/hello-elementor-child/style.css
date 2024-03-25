@@ -7,30 +7,12 @@
  */
 
 
- .text-logo{
-    font-size: 24px;
-    color: #3B8E46;
-   
- }
 
-.txt-header{
-   font-weight: 400px;
-}
-
-.txt-header:hover{
-   font-weight: 700px;
-}
-
-.hero-container{
-   background-color: #ECE2DA;
-   border-bottom-left-radius: 5%;
-}
+ @import url("css/custom.css");
 
 
-@media(max-width:1150px){
-.hero-leaf{
-   display: none;
-}
-}
 
- 
+
+
+
+
