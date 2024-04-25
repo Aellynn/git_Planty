@@ -6,164 +6,170 @@
  * Description:    Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
  */
 
-p{
-  margin-block-start: 15px!important;
+p {
+  margin-block-start: 15px !important;
 }
 
 /*********Header*********/
 
-.header-logo{
+.header-logo {
   padding-left: 30px;
 }
 
 
 
- #menu-item-44 a,#menu-item-678 a,.admin-button{
-  background-color: white!important;
-  color: black!important;
-  font-weight: 400!important;
- }
+#menu-item-44 a,
+#menu-item-678 a,
+.admin-button {
+  background-color: white !important;
+  color: black !important;
+  font-weight: 400 !important;
+}
 
- #menu-item-44,#menu-item-678,.admin-link{
-  display: flex!important;
-  align-items: center!important;
-  justify-content: center!important;
-  
- }
+#menu-item-44,
+#menu-item-678,
+.admin-link {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 
- #menu-item-44 a:hover,#menu-item-678 a:hover,.admin-button:hover{
-   font-weight: 700!important;
-   background-color: white!important;
- }
+}
 
- 
- #menu-item-43 a{
-   color: white!important;
-   background-color: #DC9F96;
-   height: 80px;
-   width: 236px;
-   text-align: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
- }
+#menu-item-44 a:hover,
+#menu-item-678 a:hover,
+.admin-button:hover {
+  font-weight: 700 !important;
+  background-color: white !important;
+}
 
- #menu-item-43 a:hover{
-   background-color: red!important;
- }
 
- 
+#menu-item-43 a {
+  color: white !important;
+  background-color: #DC9F96;
+  height: 80px;
+  width: 236px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu-item-43 a:hover {
+  background-color: red !important;
+}
+
+
 /***********Homepage***********/
 
-  .text-logo{
-    font-size: 38px;
-    color: #3B8E46;
-    background-color: #ECE2DA;
-    text-transform: uppercase;
-    font-weight: 800;
-   }
- 
- .hero-container{
-    background-color: #ECE2DA;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
- }
- 
- .hero-logo{
-    display: flex;
-    justify-content: end;
-    height: 1100px;
- }
- 
-.hero-leaf-left{
+.text-logo {
+  font-size: 38px;
+  color: #3B8E46;
+  background-color: #ECE2DA;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hero-container {
+  background-color: #ECE2DA;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.hero-logo {
+  display: flex;
+  justify-content: end;
+  height: 1100px;
+}
+
+.hero-leaf-left {
   position: relative;
   top: 550px;
   right: 220px;
 }
- 
-.hero-leaf-right{
+
+.hero-leaf-right {
   position: relative;
   bottom: 510px;
   left: 120px;
-} 
+}
 
-.energy{
+.energy {
   font-family: Syne;
   font-size: 30px;
   font-weight: 700;
-  color: #3B8E46!important;
+  color: #3B8E46 !important;
 }
 
-.energy-text{
+.energy-text {
   font-family: Syne;
   font-size: 20px;
   font-weight: 400;
   color: black;
 }
 
-.flavor-container{
+.flavor-container {
   background-color: #ECE2DA;
 }
 
-.flavor-title{
-  color: #D2776A!important;
+.flavor-title {
+  color: #D2776A !important;
   font-size: 30px;
   font-weight: 800;
 }
 
-.flavor-txt{
+.flavor-txt {
   color: black;
   font-size: 20px;
   font-weight: 400;
 }
 
- .flavor{
+.flavor {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.flavor-button{
-  color: white!important;
+.flavor-button {
+  color: white !important;
   background-color: #DC9F96;
   font-size: 15px;
   font-weight: 400;
   height: 55px;
 }
 
-.flavor-button:hover{
-  background-color: red!important;
+.flavor-button:hover {
+  background-color: red !important;
 }
 
-.thinker-title{
+.thinker-title {
   font-family: Syne;
   font-size: 30px;
   font-weight: 800;
-  color: #3B8E46!important;
+  color: #3B8E46 !important;
   padding-bottom: 50px !important;
   padding-top: 100px !important;
 }
 
 
-.think-container{
+.think-container {
   display: flex;
   justify-content: space-evenly;
 }
 
-.think-title{
+.think-title {
   font-family: Syne;
   font-size: 30px;
   font-weight: 800;
-  color: #3B8E46!important;
+  color: #3B8E46 !important;
 }
 
-.think-img{
+.think-img {
   display: flex;
   justify-content: start;
 }
 
 
-.think-txt{
+.think-txt {
   color: black;
   font-size: 16px;
   font-weight: 400;
@@ -172,52 +178,52 @@ p{
 
 /******************Meet us page****************/
 
-.hero-meetus{
+.hero-meetus {
   background-color: #ECE2DA;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 
-.wp-image-91{
+.wp-image-91 {
   position: relative;
   top: 55px;
   left: 230px;
 }
 
-.meetus-team-container{
+.meetus-team-container {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-.meetus-title{
-  color: #D2776A!important;
-  font-size: 38px;
-  font-weight: 800;
-  text-transform: uppercase;
+.meetus-title {
+  color: #D2776A !important;
+  font-size: 38px !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
 }
 
-.meetus-txt{
+.meetus-txt {
   font-family: Syne;
   color: black;
   font-size: 20px;
   font-weight: 400;
-  
+
 }
 
-.meetus-team-title{
+.meetus-team-title {
   font-family: Syne;
   color: black;
   font-size: 30px;
   font-weight: 700;
 }
 
-.team-container{
+.team-container {
   display: flex;
   justify-content: space-evenly;
 }
 
-.meetus-name-team{
+.meetus-name-team {
   font-family: Syne;
   font-size: 20px;
   font-weight: 700;
@@ -225,58 +231,62 @@ p{
 
 
 
-.team-title{
+.team-title {
   font-family: Syne;
   font-size: 30px;
 }
 
-.form-title{
+.form-title {
   font-family: Syne;
   font-size: 30px;
   font-weight: 700;
 }
 
 
-.meetus-form-container{
+.meetus-form-container {
   background-color: #ECE2DA;
 }
 
-.meetus-form{
+.meetus-form {
   display: flex;
   flex-direction: column;
   align-items: start;
-  z-index: 2!important;
+  z-index: 2 !important;
 }
 
 
-.meetus-email-area,.meetus-name-area,.meetus-message-area{
+.meetus-email-area,
+.meetus-name-area,
+.meetus-message-area {
   min-width: 383px;
   height: 55px;
   margin-top: 10px;
-  border: none!important;
+  border: none !important;
   border-radius: 5px;
-  z-index: 2!important;
+  z-index: 2 !important;
 }
 
-.meetus-message,.meetus-name,.meetus-email{
+.meetus-message,
+.meetus-name,
+.meetus-email {
   font-family: Syne;
   font-weight: 400;
   margin-top: 15px;
 }
 
-.meetus-message-area{
-  height: 237px;  
+.meetus-message-area {
+  height: 237px;
 }
 
 
-.submit-meetus{
+.submit-meetus {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
 
 
-.submit-meetus input{
+.submit-meetus input {
   color: white;
   background-color: #E0B9B4;
   border: none;
@@ -285,60 +295,60 @@ p{
 }
 
 
-.submit-meetus input:hover{
-  background-color: red!important;
+.submit-meetus input:hover {
+  background-color: red !important;
 }
 
-.wpcf7-spinner{
+.wpcf7-spinner {
   margin: 0;
   width: 0px;
 
 }
 
-.meetus-leaf-team{
+.meetus-leaf-team {
   position: relative;
   right: 200px;
-  width: 100px; 
+  width: 100px;
 }
 
 
-.meetus-leaf{
-  position:relative;
+.meetus-leaf {
+  position: relative;
   bottom: 200px;
   right: 185px;
-  z-index: 0!important;
+  z-index: 0 !important;
 }
 
 
 
- @media(max-width:1440px){
- .hero-leaf{
+@media(max-width:1440px) {
+  .hero-leaf {
     display: none;
- }
- }
+  }
+}
 
 /****************Page commander****************/
 
 
-.command-page-container{
+.command-page-container {
   background-color: #3B8E46;
   border-bottom: white 1px solid;
   display: flex;
   justify-content: center;
 }
 
-.command-page{
+.command-page {
   margin: 0 100px;
 }
 
 
-.title-command-page-container{
+.title-command-page-container {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.title-command-page{
+.title-command-page {
   text-transform: uppercase;
   color: white;
   width: 860px;
@@ -351,7 +361,7 @@ p{
   padding: 60px 0;
 }
 
-.undertitle-command-page{
+.undertitle-command-page {
   color: white;
   height: 36px;
   font-family: Syne;
@@ -360,45 +370,45 @@ p{
 }
 
 
-.command-number{
+.command-number {
   display: flex;
-  justify-content: space-around!important;
+  justify-content: space-around !important;
   width: 100%;
-  border-radius: none!important;
+  border-radius: none !important;
   padding: 40px 0;
 }
 
-.command-number div{
+.command-number div {
   display: flex;
   flex-direction: column;
   width: 193px;
   align-items: center;
 }
 
-.command-number input{
+.command-number input {
   width: 40px;
   height: 56px;
-  border: transparent!important;
-  border-radius: none!important;
+  border: transparent !important;
+  border-radius: none !important;
   margin-top: 15px;
   padding-right: 0px !important;
-  
+
 }
 
-.command-form{
+.command-form {
   display: flex;
   border-top: white 1px solid;
   padding-top: 40px;
 }
 
-.command-info{
+.command-info {
   display: flex;
   flex-direction: column;
   padding-right: 40px;
   border-right: white 1px solid;
 }
 
-.your-info{
+.your-info {
   color: white;
   height: 36px;
   font-family: Syne;
@@ -406,25 +416,29 @@ p{
   font-size: 30px;
 }
 
-.command-name-area,.command-first-name-area,.command-email-area{
-  width: 383px!important;
+.command-name-area,
+.command-first-name-area,
+.command-email-area {
+  width: 383px !important;
   height: 60px;
-  border: none!important;
+  border: none !important;
 }
 
-.command-name,.command-first-name,.command-email{
+.command-name,
+.command-first-name,
+.command-email {
   color: white;
-  margin: 25px 0 10px 0 ;
+  margin: 25px 0 10px 0;
 }
 
-.command-delivery{
+.command-delivery {
   display: flex;
   flex-direction: column;
   padding-left: 40px;
 }
 
 
-.your-delivery{
+.your-delivery {
   color: white;
   height: 36px;
   font-family: Syne;
@@ -432,25 +446,29 @@ p{
   font-size: 30px;
 }
 
-.command-adress-area,.command-zip-code-area,.command-city-area{
-  width: 383px!important;
+.command-adress-area,
+.command-zip-code-area,
+.command-city-area {
+  width: 383px !important;
   height: 60px;
-  border: none!important;
+  border: none !important;
 }
 
-.command-adress,.command-zip-code,.command-city{
+.command-adress,
+.command-zip-code,
+.command-city {
   color: white;
-  margin: 25px 0 10px 0 ;
+  margin: 25px 0 10px 0;
 }
 
 
-.submit-command{
+.submit-command {
   display: flex;
   justify-content: center;
   padding: 40px 0 100px 0;
 }
 
-.submit-command input{
+.submit-command input {
   color: white;
   background-color: #E0B9B4;
   border: none;
@@ -459,6 +477,104 @@ p{
 
 }
 
-.submit-command input:hover{
-  background-color: red!important;
+.submit-command input:hover {
+  background-color: red !important;
+}
+
+
+
+/***********homepage-media************/
+
+@media(max-width:768px) {
+
+  .hero-leaf-left,
+  .hero-leaf-right {
+    display: none;
+  }
+
+  .flavor-button {
+    width: 150px !important;
+  }
+
+  .homepage-people-container,
+  .homepage-people-container div {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+
+
+
+/************meetus-media************/
+
+@media(max-width:1024px) {
+  .meetus-flower {
+    display: none;
+  }
+}
+
+@media(max-width:500px) {
+
+  .meetus-message-area,
+  .meetus-email-area,
+  .meetus-name-area {
+    min-width: 250px !important;
+  }
+
+  .meetus-leaf {
+    display: none;
+  }
+}
+
+/************command-media************/
+
+@media(max-width:880px) {
+  .title-command-page {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .command-number {
+    flex-wrap: wrap !important;
+    width: 85%;
+    margin: 0 7.5%;
+  }
+
+  .command-number div {
+    margin-bottom: 30px;
+  }
+
+  .command-delivery input,
+  .command-info input {
+    width: 300px !important;
+  }
+
+  .command-form {
+    width: 100% !important;
+  }
+}
+
+
+@media(max-width:700px) {
+  .command-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+
+  .command-info,
+  .command-delivery {
+    padding: 0px;
+    border: none;
+  }
+
+  .command-info {
+    padding-bottom: 25px;
+    border-bottom: solid 1px white;
+  }
+
+  .command-delivery {
+    padding-top: 25px;
+  }
 }
