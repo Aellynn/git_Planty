@@ -1,17 +1,36 @@
 <?php
 /**
- * Recommended way to include parent theme styles.
- * (Please see http://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme)
+ * Theme functions and definitions.
  *
- */  
+ * For additional information on potential customization options,
+ * read the developers' documentation:
+ *
+ * https://developers.elementor.com/docs/hello-elementor-theme/
+ *
+ * @package HelloElementorChild
+ */
 
- add_action( 'wp_enqueue_scripts', 'hello_elementor_child_style' );
-  function hello_elementor_child_style() {
-	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'));
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
 }
 
+define( 'HELLO_ELEMENTOR_CHILD_VERSION', '2.0.0' );
 
+/**
+ * Load child theme scripts & styles.
+ *
+ * @return void
+ */
+function hello_elementor_child_scripts_styles() {
 
+	wp_enqueue_style(
+		'hello-elementor-child-style',
+		get_stylesheet_directory_uri() . '/style.css',
+		[
+			'hello-elementor-theme-style',
+		],
+		HELLO_ELEMENTOR_CHILD_VERSION
+	);
 
-
+}
+add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );

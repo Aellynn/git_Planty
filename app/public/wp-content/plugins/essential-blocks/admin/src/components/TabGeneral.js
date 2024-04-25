@@ -277,21 +277,21 @@ export default function TabGeneral() {
                         >
                             <div className="changelog-wrapper">
                                 <div className="changelog-title">
-                                    {__("Version: 4.5.4", "essential-blocks")}
+                                    {__("Version: 4.5.9", "essential-blocks")}
                                     <span className="changelog-date">
-                                        {__("18/03/2024", "essential-blocks")}
+                                        {__("09/04/2024", "essential-blocks")}
                                     </span>
                                 </div>
                                 <ul className="changelog-content">
                                     <li>
                                         {__(
-                                            "Improved: Security enhancement",
+                                            "Fixed: Post Grid block templates design conflict",
                                             "essential-blocks"
                                         )}
                                     </li>
                                     <li>
                                         {__(
-                                            "Few minor bug fixes & improvements",
+                                            "Fixed: Editor error for Call to Action block conflict",
                                             "essential-blocks"
                                         )}
                                     </li>

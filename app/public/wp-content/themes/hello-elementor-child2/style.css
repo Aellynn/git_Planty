@@ -1,0 +1,464 @@
+/**
+ * Theme Name:     Hello Elementor Child2
+ * Author:         Elementor Team
+ * Template:       hello-elementor
+ * Text Domain:	   hello-elementor-child2
+ * Description:    Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+ */
+
+p{
+  margin-block-start: 15px!important;
+}
+
+/*********Header*********/
+
+.header-logo{
+  padding-left: 30px;
+}
+
+
+
+ #menu-item-44 a,#menu-item-678 a,.admin-button{
+  background-color: white!important;
+  color: black!important;
+  font-weight: 400!important;
+ }
+
+ #menu-item-44,#menu-item-678,.admin-link{
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  
+ }
+
+ #menu-item-44 a:hover,#menu-item-678 a:hover,.admin-button:hover{
+   font-weight: 700!important;
+   background-color: white!important;
+ }
+
+ 
+ #menu-item-43 a{
+   color: white!important;
+   background-color: #DC9F96;
+   height: 80px;
+   width: 236px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #menu-item-43 a:hover{
+   background-color: red!important;
+ }
+
+ 
+/***********Homepage***********/
+
+  .text-logo{
+    font-size: 38px;
+    color: #3B8E46;
+    background-color: #ECE2DA;
+    text-transform: uppercase;
+    font-weight: 800;
+   }
+ 
+ .hero-container{
+    background-color: #ECE2DA;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+ }
+ 
+ .hero-logo{
+    display: flex;
+    justify-content: end;
+    height: 1100px;
+ }
+ 
+.hero-leaf-left{
+  position: relative;
+  top: 550px;
+  right: 220px;
+}
+ 
+.hero-leaf-right{
+  position: relative;
+  bottom: 510px;
+  left: 120px;
+} 
+
+.energy{
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+  color: #3B8E46!important;
+}
+
+.energy-text{
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.flavor-container{
+  background-color: #ECE2DA;
+}
+
+.flavor-title{
+  color: #D2776A!important;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.flavor-txt{
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+ .flavor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flavor-button{
+  color: white!important;
+  background-color: #DC9F96;
+  font-size: 15px;
+  font-weight: 400;
+  height: 55px;
+}
+
+.flavor-button:hover{
+  background-color: red!important;
+}
+
+.thinker-title{
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 800;
+  color: #3B8E46!important;
+  padding-bottom: 50px !important;
+  padding-top: 100px !important;
+}
+
+
+.think-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.think-title{
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 800;
+  color: #3B8E46!important;
+}
+
+.think-img{
+  display: flex;
+  justify-content: start;
+}
+
+
+.think-txt{
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+/******************Meet us page****************/
+
+.hero-meetus{
+  background-color: #ECE2DA;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.wp-image-91{
+  position: relative;
+  top: 55px;
+  left: 230px;
+}
+
+.meetus-team-container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.meetus-title{
+  color: #D2776A!important;
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.meetus-txt{
+  font-family: Syne;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+
+.meetus-team-title{
+  font-family: Syne;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.team-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meetus-name-team{
+  font-family: Syne;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+.team-title{
+  font-family: Syne;
+  font-size: 30px;
+}
+
+.form-title{
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.meetus-form-container{
+  background-color: #ECE2DA;
+}
+
+.meetus-form{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  z-index: 2!important;
+}
+
+
+.meetus-email-area,.meetus-name-area,.meetus-message-area{
+  min-width: 383px;
+  height: 55px;
+  margin-top: 10px;
+  border: none!important;
+  border-radius: 5px;
+  z-index: 2!important;
+}
+
+.meetus-message,.meetus-name,.meetus-email{
+  font-family: Syne;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.meetus-message-area{
+  height: 237px;  
+}
+
+
+.submit-meetus{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+.submit-meetus input{
+  color: white;
+  background-color: #E0B9B4;
+  border: none;
+  width: 198px;
+  height: 55px;
+}
+
+
+.submit-meetus input:hover{
+  background-color: red!important;
+}
+
+.wpcf7-spinner{
+  margin: 0;
+  width: 0px;
+
+}
+
+.meetus-leaf-team{
+  position: relative;
+  right: 200px;
+  width: 100px; 
+}
+
+
+.meetus-leaf{
+  position:relative;
+  bottom: 200px;
+  right: 185px;
+  z-index: 0!important;
+}
+
+
+
+ @media(max-width:1440px){
+ .hero-leaf{
+    display: none;
+ }
+ }
+
+/****************Page commander****************/
+
+
+.command-page-container{
+  background-color: #3B8E46;
+  border-bottom: white 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+.command-page{
+  margin: 0 100px;
+}
+
+
+.title-command-page-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-command-page{
+  text-transform: uppercase;
+  color: white;
+  width: 860px;
+  font-family: Syne;
+  font-weight: 800;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  border-bottom: white 1px solid;
+  padding: 60px 0;
+}
+
+.undertitle-command-page{
+  color: white;
+  height: 36px;
+  font-family: Syne;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+.command-number{
+  display: flex;
+  justify-content: space-around!important;
+  width: 100%;
+  border-radius: none!important;
+  padding: 40px 0;
+}
+
+.command-number div{
+  display: flex;
+  flex-direction: column;
+  width: 193px;
+  align-items: center;
+}
+
+.command-number input{
+  width: 40px;
+  height: 56px;
+  border: transparent!important;
+  border-radius: none!important;
+  margin-top: 15px;
+  padding-right: 0px !important;
+  
+}
+
+.command-form{
+  display: flex;
+  border-top: white 1px solid;
+  padding-top: 40px;
+}
+
+.command-info{
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  border-right: white 1px solid;
+}
+
+.your-info{
+  color: white;
+  height: 36px;
+  font-family: Syne;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.command-name-area,.command-first-name-area,.command-email-area{
+  width: 383px!important;
+  height: 60px;
+  border: none!important;
+}
+
+.command-name,.command-first-name,.command-email{
+  color: white;
+  margin: 25px 0 10px 0 ;
+}
+
+.command-delivery{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+
+.your-delivery{
+  color: white;
+  height: 36px;
+  font-family: Syne;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.command-adress-area,.command-zip-code-area,.command-city-area{
+  width: 383px!important;
+  height: 60px;
+  border: none!important;
+}
+
+.command-adress,.command-zip-code,.command-city{
+  color: white;
+  margin: 25px 0 10px 0 ;
+}
+
+
+.submit-command{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 100px 0;
+}
+
+.submit-command input{
+  color: white;
+  background-color: #E0B9B4;
+  border: none;
+  width: 198px;
+  height: 55px;
+
+}
+
+.submit-command input:hover{
+  background-color: red!important;
+}

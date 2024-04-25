@@ -30,3 +30,188 @@ Stack trace:
 #16 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\index.php(17): require('C:\\Users\\Wize\\L...')
 #17 {main}
   thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 324
+[25-Mar-2024 11:03:32 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Mar-2024 11:03:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Mar-2024 11:04:34 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[25-Mar-2024 11:06:10 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[02-Apr-2024 09:18:12 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-Apr-2024 22:02:14 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "supprimer_element_header_pour_utilisateurs_non_admin" not found or invalid function name in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-settings.php(695): do_action('init')
+#3 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-config.php(103): require_once('C:\\Users\\Wize\\L...')
+#4 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-load.php(50): require_once('C:\\Users\\Wize\\L...')
+#5 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Wize\\L...')
+#6 {main}
+  thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Apr-2024 22:02:17 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "supprimer_element_header_pour_utilisateurs_non_admin" not found or invalid function name in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-settings.php(695): do_action('init')
+#3 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-config.php(103): require_once('C:\\Users\\Wize\\L...')
+#4 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-load.php(50): require_once('C:\\Users\\Wize\\L...')
+#5 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\Wize\\L...')
+#6 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-admin\index.php(10): require_once('C:\\Users\\Wize\\L...')
+#7 {main}
+  thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 324
+[14-Apr-2024 22:02:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "supprimer_element_header_pour_utilisateurs_non_admin" not found or invalid function name in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-settings.php(695): do_action('init')
+#3 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-config.php(103): require_once('C:\\Users\\Wize\\L...')
+#4 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-load.php(50): require_once('C:\\Users\\Wize\\L...')
+#5 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\Wize\\L...')
+#6 {main}
+  thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 324
+[17-Apr-2024 14:03:13 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:13 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:14 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:14 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:15 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:15 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:15 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:03:15 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:19 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:19 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:04:20 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:02 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:02 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:02 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:04 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:04 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:04 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:06 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:06 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:06 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:12 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:12 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:12 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:18 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:18 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:18 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:33 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:33 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 59
+[17-Apr-2024 14:05:33 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 48
+[17-Apr-2024 14:05:45 UTC] PHP Warning:  Undefined variable $items in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 60
+[17-Apr-2024 14:05:45 UTC] PHP Warning:  Undefined variable $args in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 60
+[17-Apr-2024 14:05:45 UTC] PHP Warning:  Attempt to read property "theme_location" on null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 49
+[17-Apr-2024 14:20:07 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:20:07 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:31:48 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_admin_link(), 1 passed in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php on line 326 and exactly 2 expected in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php:46
+Stack trace:
+#0 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(326): add_admin_link('<li id="menu-it...')
+#1 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters('<li id="menu-it...', Array)
+#2 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\nav-menu-template.php(267): apply_filters('wp_nav_menu_ite...', '<li id="menu-it...', Object(stdClass))
+#3 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Simple_Menu.php(1631): wp_nav_menu(Object(stdClass))
+#4 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\controls-stack.php(2321): Essential_Addons_Elementor\Elements\Simple_Menu->render()
+#5 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(634): Elementor\Controls_Stack->render_by_mode()
+#6 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\widget-base.php(775): Elementor\Widget_Base->render_content()
+#7 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Widget_Base->print_content()
+#8 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1375): Elementor\Element_Base->print_element()
+#9 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#10 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(1375): Elementor\Element_Base->print_element()
+#11 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\base\element-base.php(464): Elementor\Element_Base->print_content()
+#12 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\core\base\document.php(1795): Elementor\Element_Base->print_element()
+#13 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\core\base\document.php(1183): Elementor\Core\Base\Document->print_elements(Array)
+#14 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1165): Elementor\Core\Base\Document->print_elements_with_wrapper(Array)
+#15 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\includes\frontend.php(1233): Elementor\Frontend->get_builder_content('19', false)
+#16 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php(510): Elementor\Frontend->get_builder_content_for_display('19')
+#17 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\inc\hfe-functions.php(88): Header_Footer_Elementor::get_header_content()
+#18 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(324): hfe_render_header('')
+#19 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#20 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#21 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\hfe-header.php(23): do_action('hfe_header')
+#22 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\header-footer-elementor\themes\default\class-hfe-default-compat.php(57): require('C:\\Users\\Wize\\L...')
+#23 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(326): HFE\Themes\HFE_Default_Compat->override_header(NULL)
+#24 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#25 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#26 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#27 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#28 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Wize\\L...')
+#29 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Wize\\L...')
+#30 C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\index.php(17): require('C:\\Users\\Wize\\L...')
+#31 {main}
+  thrown in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 46
+[17-Apr-2024 14:46:38 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:46:38 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:46:54 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:46:54 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:50:44 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:50:44 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:54:35 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:54:35 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:55:12 UTC] Utilisateur connecté : 
+[17-Apr-2024 14:55:12 UTC] Utilisateur connecté : 
+[17-Apr-2024 14:55:23 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:55:23 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:56:25 UTC] Utilisateur connecté : 
+[17-Apr-2024 14:56:25 UTC] Utilisateur connecté : 
+[17-Apr-2024 14:56:43 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 14:56:43 UTC] Utilisateur connecté : liam.cruciani@outlook.com
+[17-Apr-2024 15:15:18 UTC] 
+[17-Apr-2024 15:15:18 UTC] menu-1
+[17-Apr-2024 15:15:22 UTC] 
+[17-Apr-2024 15:15:22 UTC] menu-1
+[17-Apr-2024 15:15:31 UTC] 
+[17-Apr-2024 15:15:31 UTC] menu-1
+[17-Apr-2024 15:16:01 UTC] 
+[17-Apr-2024 15:16:01 UTC] menu-1
+[17-Apr-2024 15:16:06 UTC] 
+[17-Apr-2024 15:16:06 UTC] menu-1
+[17-Apr-2024 15:16:14 UTC] 
+[17-Apr-2024 15:16:14 UTC] menu-1
+[17-Apr-2024 15:17:03 UTC] menu-1
+[17-Apr-2024 15:18:02 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:23:08 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id=menu-item-677><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:25:06 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id="menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:25:29 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:26:14 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:27:56 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:28:25 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:29:31 UTC] <li class="txt-header menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="btn-header menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li><a href="#">Test</a></li><li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:30:15 UTC] <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li><a href="#">Test</a></li><li id="menu-item menu-item-type-post_type menu-item-object-page menu-item-677"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+[17-Apr-2024 15:31:08 UTC] <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li><a href="#">Test</a></li>
+[17-Apr-2024 15:31:38 UTC] <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://site-planty.local/encounter/">Nous rencontrer</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-678"><a href="http://site-planty.local/wp-admin/">Admin</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43"><a href="http://site-planty.local/command/">Commander</a></li>
+<li><a href="#">Test</a></li>
+[22-Apr-2024 13:53:43 UTC] PHP Warning:  preg_match(): Unknown modifier 'l' in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 53
+[22-Apr-2024 13:53:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 54
+[22-Apr-2024 13:55:10 UTC] PHP Warning:  preg_match(): Unknown modifier 'l' in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 53
+[22-Apr-2024 13:55:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 54
+[22-Apr-2024 13:55:17 UTC] PHP Warning:  preg_match(): Unknown modifier 'l' in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 53
+[22-Apr-2024 13:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Wize\Local Sites\site-planty\git_Planty\app\public\wp-content\themes\hello-elementor-child2\functions.php on line 54

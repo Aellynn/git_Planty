@@ -2,9 +2,9 @@
 Contributors: wpdevteam, re_enter_rupok, asif2bd, rahat89, priyomukul, jamilbd07, fencermonir, sumaiyasiddika
 Tags: block, gutenberg, blocks, gutenberg blocks, editor, button, post grid, TOC, countdown, progress bar, flipbox, advanced tab, slider, gutenberg editor, forms, woocommerce, template, page builder, block plugin, pattern, gutenberg templates, gutenberg patterns, block editor, block pattern, block template, Website Builder, starter templates, site editor, woocommerce, woocommerce block, google map, instagram feed, Nft, popup, social icon, testimonial, info box, team member
 Requires at least: 5.8
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 4.5.4
+Stable tag: 4.5.9
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -226,11 +226,40 @@ If you found the recent version of Essential Blocks isn’t working or conflicti
 
 == Changelog ==
 
-= 4.5.4 - 18/02/2024
+= 4.5.9 - 09/04/2024
+- Fixed: **Post Grid** block templates design conflict
+- Fixed: Editor error for **Call to Action** block conflict
+
+= 4.5.8 - 04/04/2024
+- Fixed: Selected image not displaying in editor issue in **Advanced Image** block
+- Fixed: **Post Grid** block markup mismatch issue
+- Fixed: Attempt recovery issue in **Pricing Table** && **Slider** block
+
+= 4.5.7 - 03/04/2024
+- Added: Site Logo and Featured Image support in **Advanced Image** block
+- Added: Exclude Password Protected posts for all dynamic blocks
+- Added: Full Width block control for almost all blocks
+- Fixed: Animation not working inside **Popup Block**
+- Improved: Accesibility Support
+- Improved: Security enhancement
+
+= 4.5.6 - 27/03/2024
+- Fixed: **Post Grid** & **Post Carousel** block is not working in editor
+- Fixed: **Testimonial** block is not working in editor
+- Few minor bug fixes & improvements
+
+= 4.5.5 - 25/03/2024
+- Added: Browse Template option for multiple blocks
+- Added: Sticky Post enable/disable option in Post Query
+- Added: Options to add image/icon/text in **Accordion** block title Prefix & Suffix
+- Fixed: **Infobox** block color issue
+- Fixed: **Slider** block attempt recovery issue
+
+= 4.5.4 - 18/03/2024
 - Improved: Security enhancement
 - Few minor bug fixes & improvements
 
-= 4.5.3 - 14/02/2024
+= 4.5.3 - 14/03/2024
 - Fixed: **Advanced Navigation** styling issue fix
 - Fixed: **Advanced Navigation** custom navigation not working in mobile
 - Fixed: **Fluent Form** & **WPForms** not working in multisite
